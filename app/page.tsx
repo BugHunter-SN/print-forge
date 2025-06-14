@@ -1,5 +1,5 @@
 import Image from "next/image"
-import HeroImage from '../public/Frame 4.png'
+import HeroImage from '../public/hero-image.png'
 import Button from "./components/button"
 export default function Home() {
   return (
