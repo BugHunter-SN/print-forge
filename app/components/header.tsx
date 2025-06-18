@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import DesktopLogo from '../../public/printforge-logo.svg'
+import MobileLogo from '../../public/pringforge-logo-icon.svg'
 
 export default function Header() {
   return (
