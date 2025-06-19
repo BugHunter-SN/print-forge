@@ -26,10 +26,12 @@ export default function Header() {
              </Link>
             </div>
             <ul className="flex items-center gap-2.5">
-              {/* <p>3D Models</p>
-              <p>About</p> */}
-              <Link href='/'>3D Models</Link>
-              <Link href='/about'>About</Link>
+              <li>
+                <Link href='/'>3D Models</Link>
+              </li>
+              <li>
+                <Link href='/about'>About</Link>
+              </li>
             </ul>
           </nav>
         </header>
