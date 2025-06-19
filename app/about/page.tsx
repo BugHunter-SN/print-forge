@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImageSquare from "../../public/hero-image-square.png"
+import HeroImageSquare from "@/public/hero-image-square.png"
 
 export default function AboutPage() {
     return (
@@ -14,7 +14,7 @@ export default function AboutPage() {
                         <Image
                             src={HeroImageSquare}
                             alt="PrintForge Community - A group of makers collaborating on 3D printing projects"
-                            width="350"
+                            width={742}
                          />
                     </div>
                     <div>

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import DesktopLogo from '../../public/printforge-logo.svg'
-import MobileLogo from '../../public/pringforge-logo-icon.svg'
+import DesktopLogo from '@/public/printforge-logo.svg'
+import MobileLogo from '@/public/pringforge-logo-icon.svg'
 
 export default function Header() {
   return (
