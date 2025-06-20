@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { getAllModels } from "@/app/lib/models"
 import type { Model } from "@/app/types"
 export default async  function ModelsPage(){
