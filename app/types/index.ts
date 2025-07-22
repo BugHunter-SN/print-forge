@@ -25,6 +25,12 @@ export type RootLayoutProps = Readonly<{
   children: React.ReactNode;
 }>
 
+export type CategoryPageProps = {
+    params:{
+        categoryName: string
+    }
+}
+
 export type ModelDetailPageProps = {
     params: Promise<{
         id: string
