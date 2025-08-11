@@ -2,7 +2,7 @@ import "./globals.css";
 import type { RootLayoutProps } from "@/app/types"
 import { Albert_Sans, Montserrat_Alternates } from 'next/font/google'
 import Header from "./components/header";
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 
 const albertSans = Albert_Sans({
   subsets: ['latin'],
