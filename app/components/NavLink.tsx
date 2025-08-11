@@ -1,7 +1,7 @@
 import Link from "next/link"
 import type { NavLinkProps } from "@/app/types"
 
-export default function({href, children} : NavLinkProps){
+export default function NavLink({href, children} : NavLinkProps){
     return(
         <li className="text-sm uppercase">
             <Link 
