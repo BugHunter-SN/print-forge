@@ -2,6 +2,7 @@ import Link from "next/link"
 import NavLink from "@/app/components/NavLink"
 import PFLogoIcon from "@/public/printforge-logo-icon.svg"
 import PFLogo from "@/public/printforge-logo.svg"
+import Image from "next/image"
 
 export default function Navbar() {
   return (
@@ -10,13 +11,13 @@ export default function Navbar() {
         <Link href="/">
           <div className="relative cursor-pointer">
             {/* Desktop Logo */}
-            <img
+            <Image
               src={PFLogo.src}
               alt="PrintForge Logo"
               className="w-[200px] h-auto hidden md:block"
             />
             {/* Mobile Logo */}
-            <img
+            <Image
               src={PFLogoIcon.src}
               alt="PrintForge Logo"
               className="w-[40px] h-auto block md:hidden"
