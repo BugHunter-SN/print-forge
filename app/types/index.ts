@@ -26,9 +26,9 @@ export type RootLayoutProps = Readonly<{
 }>
 
 export type CategoryPageProps = {
-    params:{
+    params: Promise<{
         categoryName: string
-    }
+    }>
 }
 
 export type ModelDetailPageProps = {
